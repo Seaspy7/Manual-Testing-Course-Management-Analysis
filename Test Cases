@@ -1,0 +1,8 @@
+Unit 1 Login
+
+Test Case 1.1: Succesful Login
+  Test Data: Open Application
+  Test Result: Login screen is displayed
+  
+  Test Data: Enter username "Admin", enter password "pass", Click button "Login"
+  Test Result: Main screen is displayed 
