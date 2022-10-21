@@ -1,7 +1,9 @@
-Creating Test Cases based off BRD requirements from previous file.
+Creating Test Cases based off BRD requirements file.
 ----------------------------------------------------------------------
 
+
 Unit 1.0 Login
+----------------
 
 Test Case 1.1: Succesful Login
   Test Data: Open Application
@@ -12,9 +14,22 @@ Test Case 1.1: Succesful Login
 
 
 Unit 2.0 Create New Course
+--------------------------
 
 Test Case 2.1: Login Succesfully
-Test data: Open Application, Enter username "Admin", Enter password "pass" and Press Button "Login"
-Test Result: Main Screen is displayed 
+  Test data: Open Application, Enter username "Admin", Enter password "pass" and Press Button "Login"
+  Test Result: Main Screen is displayed 
 
 Test Case 2.2: Opem Form
+  Test Data : Click on "Course Configuration
+  Test Result: "Schedule Course" icon is displayed 
+
+  Test Data: Click on "Schedule Courses" and then Click on "Create New Course"
+  Test Result: Form is opened
+
+Test Case 2.3: Create New Course Successfully
+  Test Data: Create new course with Title "Sean"
+  Test Result: Course "Sean" created successfully
+  
+
+
