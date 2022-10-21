@@ -1,0 +1,16 @@
+                                                Requirements for Course Management System
+                                                -----------------------------------------
+
+    
+Login Screen
+
+(1) When clicking on the URL above, the user should be redirected to Login Screen
+
+(1.1) The username should be "Admin" ("A" is upper case and the rest is lower case) and the password is "pass" (lower case)
+      If invalid username or password is entered, the application should display the error message
+      
+        "Incorrect username and/or password"
+          "Try Again"
+          
+          
+          
