@@ -51,4 +51,36 @@ Test Case 2.5: Title --> [Title should have limit of 50 characters]
   
   Test Data: Create New Course, Don't Enter Title and Press "Create Course" Button
   Test Result: Error Message
-
+  
+ Test Case 2.6: Level
+  Test Data: Click on drop-down menu "Level" 
+  Test Result: Drop-Down Menu and ability to select
+  
+  Test Data: Create new course with Title "Sean2" Don't select drop-down menu "Level" Press "Create Course" Button
+  Test Result: Error Message
+  
+ Test Case 2.7: Course Description [0-50 alphanumeric characters]
+  Test Data: Create new course "Sean3", Don't enter course description, Press "Create Course" button
+  Test Result: Course created successfully
+  
+  Test Data: Create new course "Sean4" Enter 50 letters, numbers for Course Description Press "Create Course" button
+  Test Result: Course Created Successfully
+  
+  Test Data: Create new course "Sean5", Enter 51 letters and numbers for Course Description, Press "Create Course" button
+  Test Result: Error 
+  
+  Test Data: Create new course "Sean5" Enter symbols for Course Description Press "Create Course" button
+  Test Result: Error
+  
+ Test Case 2.8: Certificate Checkbox [Must be selected to create a course]
+  Test Data: Create new course with Title "Sean6" Check "Certificate" checkbox Press "Create Course" Button
+  Test Result: Course created Successfully
+  
+  Test Data: Create new course with Title "Sean7" Don't check "Certificate" checkbox Press "Create Course" Button
+  Test Result: Error Message
+  
+ Test Case 2.9: Duplicate [Cannot create two of the same courses]
+  Test Data: Try again to create course with Title "Sean"  Click on "Create Course" Button
+  Test Result: Error
+  
+  
