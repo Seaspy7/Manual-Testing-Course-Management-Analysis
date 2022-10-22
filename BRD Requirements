@@ -1,16 +1,38 @@
-                                                Requirements for Course Management System
-                                                -----------------------------------------
+                                          Requirements for Course Management System
+                                          -----------------------------------------
 
     
 Login Screen
 
 (1) When clicking on the URL above, the user should be redirected to Login Screen
 
-(1.1) The username should be "Admin" ("A" is upper case and the rest is lower case) and the password is "pass" (lower case)
+ The username should be "Admin" ("A" is upper case and the rest is lower case) and the password is "pass" (lower case)
       If invalid username or password is entered, the application should display the error message
       
         "Incorrect username and/or password"
           "Try Again"
+          
+Main Screen
+
+(2) Upon successful Login, the following main screen is displayed. 
+    Click on "Course Configuration from main Screen
+    Click on Schedule Courses icon to create then
+    CLick on Create New Course Icon and a form should appear
+    
+    Category: Clicking the drop-down menu should generate a choice of categories
+    
+    Title: Course Title must be added. 1-50 character numbers, characters and sumbols allowed.
+    
+    Level: Clicking the drop-down menu should generate a choice of Levels. A selection must be made
+    
+    Course Description: Optional. Accepted range 0-50 alaphnumeric characters
+    
+    Certificate: Make sure textbox is checked. Cannot leave it blank. 
+    
+    Submit: the form by clicking on "Create Course" Button. If you are trying to create duplicate course based on the same title, the application
+            should display error when the "create course" button is pressed.
+  
+
           
           
           
