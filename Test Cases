@@ -31,5 +31,24 @@ Test Case 2.3: Create New Course Successfully
   Test Data: Create new course with Title "Sean"
   Test Result: Course "Sean" created successfully
   
-
+  
+Test Case 2.4: Category
+  Test Data: On the open form Click on "Category"
+  Test Result: Drop-Down menu ability to select
+  
+  Test Data: Create new course with title "Sean1". Try to Skip Category. Press "Create Course" Button
+  Test Result: Error Message
+  
+Test Case 2.5: Title --> [Title should have limit of 50 characters]
+  Test Data: Create New Course. Use 1 symbol for Title. Press "Create Course" Button
+  Test Result: Created Successfully
+  
+  Test Data: Create New Course. Use 50 characters for Title . Press "Create Course" Button
+  Test Result: Created Successfully
+  
+  Test Data: Create New Course. Use 50 characters for Title. Press "Create Course" Button
+  Test Result: Error Message
+  
+  Test Data: Create New Course, Don't Enter Title and Press "Create Course" Button
+  Test Result: Error Message
 
